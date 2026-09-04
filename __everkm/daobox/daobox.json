@@ -1,0 +1,19 @@
+{
+  "preview": {
+    "theme": "youlog",
+    "reveal_private_zones": true
+  },
+  "publish": {
+    "export_before_push": true
+  },
+  "git": {
+    "remote": {
+      "auth": null,
+      "authMode": "system",
+      "branch": null,
+      "sshKeyId": null,
+      "url": "git@github.com:abox-co/daobox-book-en.git",
+      "username": null
+    }
+  }
+}

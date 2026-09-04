@@ -1,0 +1,9 @@
+config:
+  site:
+    name: Daobox Book
+
+# folders:
+#   "/":
+#     query:
+#       nav_file: /_nav.md
+#       stack: true
