@@ -2,8 +2,9 @@ config:
   site:
     name: Daobox Book
 
-# folders:
-#   "/":
+folders:
+  "/":
+    url_id_suffix: false
 #     query:
 #       nav_file: /_nav.md
 #       stack: true
