@@ -2,12 +2,13 @@
 id: dd40b8cc-13e1-47a1-b47e-2072c4d38e68
 title: Features
 created_at: 2026-09-05T07:06:20+08:00
-updated_at: 2026-09-05T07:06:20+08:00
+updated_at: 2026-09-11T11:57:10+08:00
 ---
 
 
 # Features
 
+{#private}
 Below is a block-by-block list of what DaoBox **already ships**. No click-by-click how-tos—scan it, and see what you need. For what the product is solving and how people typically use it, see [[intro]]; for concrete scenarios, see [[user-cases]]; for common questions, see [[faq]].
 
 ## 1. Workspace & entry
@@ -54,7 +55,7 @@ Below is a block-by-block list of what DaoBox **already ships**. No click-by-cli
 ## 6. Layout & UI
 
 - Sidebar multi-view switching
-- Bottom bar
+- Bottom bar (Output / Problems / Publish)
 - Dock split panes and tabs (close others, close to the right, etc.)
 - Custom title bar and app menu
 - Status bar, notifications, and confirmations
@@ -69,10 +70,14 @@ Below is a block-by-block list of what DaoBox **already ships**. No click-by-cli
 
 ## 8. Publish & site output
 
-- Start / stop site preview
+- Start / stop site preview (live render pipeline)
 - Export a static site
+- Bottom-bar Publish: export → static preview of the build → push to a remote publish branch
+- Serve Dist output (separate from live preview); status bar shows the URL and can stop it
+- Push reuses the workspace Git remote; choose branch / directory; optionally push tags too
+- Recent push history; publish logs go to Output
 - Edit `everkm.yaml`, `daobox.json`
-- Workspace preview watching, path prefix, and related settings
+- Workspace preview watching, path prefix, publish-related, and other settings
 - Different templates map to different site shapes (e.g. Blog, Book); content still comes from the current workspace
 
 ## 9. Git versioning
@@ -100,7 +105,7 @@ Below is a block-by-block list of what DaoBox **already ships**. No click-by-cli
 - Default editor layout (preview / source / split)
 - View shortcuts, record remaps, restore defaults
 - Global: Git SSH keys, proxy, etc.
-- Workspace: preview, private-zone related, Git remote & auth, site related
+- Workspace: preview, private-zone related, Git remote & auth, site & publish related
 
 ## 12. Other
 

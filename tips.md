@@ -1,7 +1,7 @@
 ---
 id: 7ac1cdae-61ff-40ff-a16a-e196c9d1bf7e
 created_at: 2026-09-05T07:06:20+08:00
-updated_at: 2026-09-05T07:06:20+08:00
+updated_at: 2026-09-11T11:57:10+08:00
 ---
 
 
@@ -27,7 +27,7 @@ updated_at: 2026-09-05T07:06:20+08:00
 DaoBox is preview-first by design, so Markdown opens as the rendered result. While browsing, if you need a quick change, double-click where you want to edit—a pop-up editor opens and jumps to that spot.
 When you’re done, press `Mod+Enter` to save and close,
 or `Mod+S` to save only.
-Press `Esc` twice to leave the pop-up editor.
+Press `Esc` twice to leave the pop-up editor. For editing several places at once in source, see [[tips#multi-cursor]].
 
 
 {id=private-zone}
@@ -111,3 +111,26 @@ Prefer `[[target]]` so the system resolves the final URL—hand-written relative
 Rough match order: slug → title → path. With no prefix, the whole library is searched by path suffix; if multiple hits collide, use `[[./…]]` or `[[/…]]`. A trailing `/` resolves to the directory’s default page. You can also link to non-MD assets such as PDFs and images.
 
 Division of labor with standard links: use `[text](https://…)` for external URLs; use internal links for in-library references.
+
+
+{id=multi-cursor}
+## 5. Multi-cursor & bulk edits
+
+In source editing (split view or the pop-up editor), you can change several places at once. After that, typing, backspace, and writing commands like bold / italic / lists apply to **every** cursor and selection.
+
+On Mac, `Alt` is `Option`. Following an internal link is still `Mod+click`—separate from adding cursors.
+
+| Action | What it does |
+|------|------|
+| `Alt+click` | Add a cursor at the click |
+| `Alt+drag` | Rectangle / column select. Drag **down along the end of lines** to place a cursor at each line end (short lines land at their real end) |
+| Select text, then `Mod+D` | Select the next identical match and keep accumulating; press again to keep going |
+| `Mod+Shift+L` | Select every occurrence of the current selection (or word) |
+| `Mod+U` | Undo the **last selection change** (drop the cursor / selection you just added)—not the text; press again to step back further |
+| `Esc` | Collapse all multi-cursors to a single cursor |
+
+`Esc` peels layers from nearest to farthest: dismiss completion first if it’s open; then find if it’s open; then collapse multi-cursors; in the pop-up editor, press twice more to close (see [[tips#md-quick-edit]]).
+
+`Mod+U` vs `Mod+Z`: the former only walks the cursor/selection stack; the latter undoes text edits.
+
+With multiple selections, the right side of the status bar shows **“N selections”**; click it to collapse to one cursor (same as `Esc`). It stays hidden for a single selection.
