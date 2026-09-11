@@ -1,13 +1,29 @@
 ---
 id: 92fd8293-0ccb-4e9f-b3d3-8d7d85573c8e
 created_at: 2026-09-11T11:57:10+08:00
-updated_at: 2026-09-11T11:57:10+08:00
+updated_at: 2026-09-11T23:26:55+08:00
 title: Changelog
 slug: changelog
 ---
 
 {#private}
 Spec reference: /Users/dayu/Coder/everkm/everkm2/global_km/changlog-spec.md
+
+## v0.4.1 (2026-09-11)
+
+- **Cross-platform writing**
+  - Mac and Windows share LF line endings; preview double-click and locked scroll stay aligned.
+  - Cross-platform edits no longer flood diffs with newline-only changes.
+
+- **Wiki links & backlinks**
+  - Wiki links can jump to `#heading` anchors; follow and hover scroll to the target.
+  - Opening Markdown from backlinks goes straight to inline edit.
+
+- **Problems**
+  - Invalid frontmatter is reported as a problem instead of stopping the whole batch.
+
+- **DaoBox Cloud**
+  - Soft-deleted repository names can be reused.
 
 ## v0.4.0 (2026-09-11)
 
