@@ -1,13 +1,30 @@
 ---
 id: 92fd8293-0ccb-4e9f-b3d3-8d7d85573c8e
 created_at: 2026-09-11T11:57:10+08:00
-updated_at: 2026-09-11T23:26:55+08:00
+updated_at: 2026-09-16T23:02:44+08:00
 title: Changelog
 slug: changelog
 ---
 
 {#private}
 Spec reference: /Users/dayu/Coder/everkm/everkm2/global_km/changlog-spec.md
+
+## v0.5.0 (2026-09-16)
+
+- **Export**
+  - Export Markdown preview to PDF / print preview; multi-column, landscape, and base body font size.
+  - One-click Word export, with an optional save-path picker.
+
+- **Single-post sharing**
+  - Publish Markdown to youlog.net, with optional expiry when publishing.
+
+- **Open & windows**
+  - Drag-and-drop to open Markdown and folders; Open with DaoBox from the system context menu.
+  - Loose files outside a library and Guest windows—no full workspace required first.
+
+- **Find & writing**
+  - Quick Open accepts absolute paths.
+  - Auto-wrap for text and YAML; single-click folder expand in the file tree; steadier outline and multi-cursor.
 
 ## v0.4.1 (2026-09-11)
 
