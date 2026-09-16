@@ -2,7 +2,7 @@
 id: 26bf7641-b835-4d9f-98c0-95924a88732f
 title: FAQ
 created_at: 2026-09-05T07:06:20+08:00
-updated_at: 2026-09-11T11:57:10+08:00
+updated_at: 2026-09-16T23:19:33+08:00
 ---
 
 
@@ -12,7 +12,7 @@ updated_at: 2026-09-11T11:57:10+08:00
 ## 1. Is DaoBox a note app or a site generator?
 
 
-Neither, exclusively. It’s a **local Markdown file knowledge base**: the home base is writing and accumulation; when you need to, you preview or export the same library as a site. It’s fine if you only take notes. If you only want a pure SSG and don’t care about day-to-day writing, it’s usually not the best fit.
+Neither, exclusively. It’s a **local Markdown file knowledge base**: the home base is writing and accumulation; when you need to, you preview or export the same library as a site—or export PDF / Word, or share a single post. It’s fine if you only take notes. If you only want a pure SSG and don’t care about day-to-day writing, it’s usually not the best fit.
 
 ## 2. How does it compare to tools like Obsidian?
 
@@ -37,7 +37,7 @@ No. You can open a library, write, preview, and export without Git. Git is optio
 ## 6. Is there cloud sync or account login?
 
 
-There’s no “sign in → cloud note library” product. Remote backup and multi-machine collaboration go through *your* Git remotes (and credential settings)—not a content cloud hosted by DaoBox.
+Optional **DaoBox Cloud**: after device-authorized sign-in, you can clone from cloud repos and manage repositories and site hosting. Notes remain ordinary files on your machine (or your Git remotes)—not a “sign in → proprietary cloud note library” product. You can use local open, writing, and export fully without the cloud.
 
 ## 7. Can multiple people edit the same document in real time?
 
@@ -52,7 +52,7 @@ Private markers stay in the source. In the library you can show or hide them. In
 ## 9. Do I need to know how to build sites or edit templates?
 
 
-Not for day-to-day accumulation. Open a folder and write. Site-related steps (preview, export, picking a template, editing `everkm.yaml` / `daobox.json`) are the path you take when you’re ready to output; go deeper into themes only when you want a custom look.
+Not for day-to-day accumulation. Open a folder and write. Site-related steps (preview, export, picking a template, editing `everkm.yaml` / `daobox.json`) are the path you take when you’re ready to output; go deeper into themes only when you want a custom look. To hand someone one note, you can also export PDF / Word or share a single post—no full site required.
 
 ## 10. There’s a lot here—where should I start?
 

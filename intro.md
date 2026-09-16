@@ -2,7 +2,7 @@
 id: 61d67036-092e-4bff-8849-51d69726dc44
 title: Introduction
 created_at: 2026-09-05T07:06:20+08:00
-updated_at: 2026-09-05T07:06:20+08:00
+updated_at: 2026-09-16T23:19:33+08:00
 slug: index
 ---
 
@@ -207,11 +207,13 @@ Publishing isn’t the starting point of writing.
 
 ---
 
-## 7. The same files can become a website
+## 7. The same files can be handed to others
 
 When you do want to share, you don’t need a second content system.
 
-DaoBox can preview and publish from the knowledge base you already have.
+Lightweight: export one Markdown note as **PDF / Word**, or **share a single post online**.
+
+More complete: DaoBox can preview and publish a site from the knowledge base you already have.
 
 In other words:
 
@@ -222,9 +224,9 @@ Knowledge base
    ↓
 Organize / link / refine
    ↓
-Site preview
+Export one note / site preview
    ↓
-Publish
+Hand to others / publish
 ```
 
 There’s no need to duplicate a second copy of the content.
@@ -238,7 +240,7 @@ The same Markdown files can be rendered with different templates into different 
 
 You don’t have to learn a template system, the command line, or a complex deploy pipeline first.
 
-**Focus on content while writing; decide how it looks when you publish.**
+**Focus on content while writing; decide how to hand it to others when you need to.**
 
 ---
 
@@ -319,11 +321,11 @@ When writing, researching, or organizing sources, you produce content that isn�
 
 ### You occasionally want to share
 
-Most days you’re accumulating knowledge, not blogging daily—but when something matures, you want it to become a website without friction.
+Most days you’re accumulating knowledge, not blogging daily—but when something matures, you want to export it for someone else, or turn it into a website without friction.
 
 ### You want one tool from accumulation to output
 
-You don’t want one tool for notes and another toolchain just to publish.
+You don’t want one tool for notes and another toolchain just to export or publish.
 
 ---
 
@@ -341,7 +343,7 @@ On top of them, DaoBox adds better reading, editing, organizing, linking, versio
 
 You can use it only as a local knowledge base.
 
-Or go further with publishing.
+Or go further with export, single-post sharing, and site publishing.
 
 You shouldn’t have to reorganize your whole library just to use one feature.
 

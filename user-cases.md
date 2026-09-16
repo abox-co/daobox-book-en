@@ -2,7 +2,7 @@
 id: 9ebab549-ae76-4bc2-a96b-18e787209120
 title: Use Cases
 created_at: 2026-09-05T07:06:20+08:00
-updated_at: 2026-09-05T07:06:20+08:00
+updated_at: 2026-09-16T23:19:33+08:00
 ---
 
 
@@ -92,7 +92,22 @@ When you read it yourself, it’s still part of the piece; when you publish, pri
 
 ---
 
-## 05｜I’ve written a lot—and suddenly want it as a website
+## 05｜I want to hand someone one note—without building a whole site
+
+Sometimes you don’t want a blog—you just need a colleague or friend to see one piece.
+
+Export that Markdown as **PDF or Word**, or **share a single post online** with a link (optional expiry).
+
+Drag-and-drop or the system “Open with DaoBox” menu can open one file without a full workspace first.
+
+**A good fit if:**
+
+* You need a quick handoff, review, or external send
+* You’re not ready (or don’t need) to maintain a public site
+
+---
+
+## 06｜I’ve written a lot—and suddenly want it as a website
 
 It may have started as a personal knowledge base.
 
@@ -112,7 +127,7 @@ What used to live only on your computer now has an entrance for other people. Th
 
 ---
 
-## 06｜I’m maintaining a long-running project and need files, materials, and docs together
+## 07｜I’m maintaining a long-running project and need files, materials, and docs together
 
 A long project is rarely Markdown-only.
 
@@ -140,7 +155,7 @@ You don’t need a second copy detached from the project just for knowledge mana
 
 ---
 
-## 07｜I care whether I can still find my content years from now
+## 08｜I care whether I can still find my content years from now
 
 After years with a knowledge base, what matters most often isn’t “how fast I write today,” but whether you can still find what you wrote then.
 
@@ -158,7 +173,7 @@ The library isn’t only “what it is now”—it also keeps what it used to be
 
 ---
 
-## 08｜I want more and more connections among my own files
+## 09｜I want more and more connections among my own files
 
 At first there are only a few notes.
 
@@ -174,7 +189,7 @@ As those relationships multiply, what began as a folder gradually becomes a know
 
 ---
 
-## 09｜I want a website without becoming a web developer first
+## 10｜I want a website without becoming a web developer first
 
 Some people want to write publicly without first learning static site generators, the command line, Node.js, deploy configs, and the rest of the toolchain.
 
@@ -190,7 +205,7 @@ People who need deeper customization can then adjust templates and deployment.
 
 ---
 
-## 10｜I don’t want writing and publishing to become two systems
+## 11｜I don’t want writing and publishing to become two systems
 
 This is where these scenarios converge.
 

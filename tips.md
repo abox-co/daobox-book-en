@@ -1,7 +1,7 @@
 ---
 id: 7ac1cdae-61ff-40ff-a16a-e196c9d1bf7e
 created_at: 2026-09-05T07:06:20+08:00
-updated_at: 2026-09-11T11:57:10+08:00
+updated_at: 2026-09-16T23:19:33+08:00
 ---
 
 
@@ -134,3 +134,19 @@ On Mac, `Alt` is `Option`. Following an internal link is still `Mod+click`—sep
 `Mod+U` vs `Mod+Z`: the former only walks the cursor/selection stack; the latter undoes text edits.
 
 With multiple selections, the right side of the status bar shows **“N selections”**; click it to collapse to one cursor (same as `Esc`). It stays hidden for a single selection.
+
+
+{id=export-share}
+## 6. Export PDF / Word, or share one post
+
+With a Markdown file open, use the menu to export the current preview as **PDF** (including print preview; multi-column, landscape, and base body font size) or **Word**. You don’t need a full site export first.
+
+To put one note online for others, use **single-post sharing to Youlog**: publish to youlog.net, optionally with an expiry. Full-library sites still go through site preview and publish.
+
+
+{id=open-outside-library}
+## 7. Files outside a library & Quick Open
+
+You don’t need a full workspace first: **drag** Markdown or a folder into the window, or use the system context menu **Open with DaoBox** on `.md` files. Loose files open in Guest-style windows.
+
+Quick Open in the command palette also accepts an **absolute path** to jump straight to a note.
