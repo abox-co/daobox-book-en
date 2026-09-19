@@ -1,13 +1,41 @@
 ---
 id: 92fd8293-0ccb-4e9f-b3d3-8d7d85573c8e
 created_at: 2026-09-11T11:57:10+08:00
-updated_at: 2026-09-16T23:02:44+08:00
+updated_at: 2026-09-19T12:07:42+08:00
 title: Changelog
 slug: changelog
 ---
 
 {#private}
 Spec reference: /Users/dayu/Coder/everkm/everkm2/global_km/changlog-spec.md
+
+## v0.6.0 (2026-09-19)
+
+- **History**
+  - Export a whole revision or a single file locally.
+  - Restore a historical version into the current workspace.
+
+- **Changes**
+  - Right-click to ignore this file, same name, same extension, or a custom rule.
+  - Hover the icon to open the file as it is now; folders jump to the file tree.
+
+- **Refresh & polish**
+  - External edits refresh Changes and History quietly, without list flicker.
+  - Refresh sits next to Pending and at the top of History.
+
+## v0.5.1 (2026-09-18)
+
+- **Link reading**
+  - Opening a link no longer stacks tabs, with back / forward navigation.
+  - Dead links are cleared, keeping preview and export consistent.
+
+- **Tabs & file tree**
+  - Same-name files are told apart (index pages show their folder); titles show the in-library path; unsaved files get a * mark.
+  - Collapse all folders from the sidebar or the context menu.
+
+- **Windows & stability**
+  - Opening a library with unsaved or external files now opens a new window instead of losing content.
+  - Preview double-click positioning, back/forward buttons, cloud-sync clicks, and the About dialog feel smoother.
 
 ## v0.5.0 (2026-09-16)
 
