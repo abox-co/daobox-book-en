@@ -1,13 +1,46 @@
 ---
 id: 92fd8293-0ccb-4e9f-b3d3-8d7d85573c8e
 created_at: 2026-09-11T11:57:10+08:00
-updated_at: 2026-09-19T12:07:42+08:00
+updated_at: 2026-09-21T18:40:27+08:00
 title: Changelog
 slug: changelog
 ---
 
 {#private}
 Spec reference: /Users/dayu/Coder/everkm/everkm2/global_km/changlog-spec.md
+
+## v0.6.1 (2026-09-21)
+
+- **Content search**
+  - Hits follow the text you see on the page, and line numbers match preview or source.
+  - The result list stays stable; opening a hit keeps the list and scroll position.
+  - Press ⌘K / Ctrl+K to open content search.
+
+- **Find**
+  - A single click on a find result opens a temporary preview; a double click keeps the tab, same as the file tree and notes list.
+  - Exclude on a result row works on its own and does not collapse the group.
+  - Single-click and double-click are distinguished sooner, so a single click feels quicker.
+
+- **Recent workspaces & Welcome**
+  - The recent-workspace dialog supports filtering and up/down keyboard selection. Welcome opens it from a search icon, and the list holds up to 50 entries. Shortcut: ⌘⌥O / Ctrl+Alt+O.
+  - On Welcome, copy the workspace path or reveal it in Finder / Explorer.
+  - When preview is not running, only the status is shown; while it is running, the preview address stays clickable.
+  - Open Welcome is now ⌘⌥, / Ctrl+Alt+,.
+
+- **Changes**
+  - Right-click an item that still exists to reveal it in the file tree.
+  - The context menu is grouped into open & locate, version, path, and selection.
+
+- **Export, push & sync**
+  - Export, push, and sync run one at a time; progress stays on the status bar.
+  - Export options live on the Export page, and image lazy-loading is on by default. Saving settings reloads a running preview with the new options.
+
+- **Menus, commands & rename**
+  - The File menu leads with New File and can close all tabs (⌘⌥W / Ctrl+Alt+W).
+  - With a query, command palette results stay grouped, and order inside a group stays stable.
+  - On Mac, the app menu bar stays steady when switching tabs.
+  - Rename selects only the file name, not the extension. Reload File is now ⌘⌥R / Ctrl+Alt+R.
+  - A file marked deleted in history cannot be exported or restored into the workspace.
 
 ## v0.6.0 (2026-09-19)
 
